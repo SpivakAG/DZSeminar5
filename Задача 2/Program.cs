@@ -18,7 +18,7 @@ for (int i = 0; i < array.Length; i++)
 }
 PrintArray(array);
 
-Console.WriteLine($" Количество четных чисел в массиве равно {oddPositionSum}");
+Console.WriteLine($" Сумма чисел с нечетными индексами = {oddPositionSum}");
 
 void PrintArray(int[] col)
 {
